@@ -1,85 +1,75 @@
 .cart {
-  max-width: 230px;
-  margin: 10px;
-  border: 1px solid var(--bs-gray);
-  border-radius: 15px 15px 15px 15px;
-  padding: 10px;
- }
- .img_card {
-  max-width: 200px;
-  display: block;
-  margin: auto;
- }
- .title h1 {
-  
-  font-size: 26px;
-  color: black;
- }
- .info h1 {
-  max-width: 230px;
-  font-size: 16px;
-  color: var(--bs-secondary);
-  font-weight: initial;
- }
- .cart a {
-  text-decoration: none;
- }
- .cart:hover {
-  opacity: 50%;
- }
- .tags > a {
-  background: aquamarine;
-  padding: 1px;
-  margin: 10px;
- }
- .tags strong {
-  border: 1px solid var(--bs-warning);
-  color: var(--bs-primary);
-  border: 1px solid var(--bs-cyan);
-  border-radius: 10px;
-  padding: 0px 10px;
-  margin: 0px 5px;
-  font-size: 13px;
-  font-weight: 100;
- }
- .grid {
-   display: flex;
- }
- span {
-   display: none;
- }
- @media (max-width: 768px){
-.grid {
-    display: flex;
-    background: aliceblue;
-    overflow: auto;
-    /* white-space: nowrap; */
+ max-width: 230px;
+ margin: 10px;
+ border: 1px solid var(--bs-gray);
+ border-radius: 15px 15px 15px 15px;
+ padding: 10px;
 }
- 
+.img_card {
+ max-width: 200px;
+ display: block;
+ margin: auto;
+}
+.title h1 {
+ font-size: 26px;
+ color: black;
+}
+.info h1 {
+ max-width: 230px;
+ font-size: 16px;
+ color: var(--bs-secondary);
+ font-weight: initial;
+}
+.cart a {
+ text-decoration: none;
+}
+.cart:hover {
+ opacity: 50%;
+}
+.tags > a {
+ background: aquamarine;
+ padding: 1px;
+ margin: 10px;
+}
+.tags strong {
+ border: 1px solid var(--bs-warning);
+ color: var(--bs-primary);
+ border: 1px solid var(--bs-cyan);
+ border-radius: 10px;
+ padding: 0px 10px;
+ margin: 0px 5px;
+ font-size: 13px;
+ font-weight: 100;
+}
+.grid {
+ display: flex;
+}
+span {
+ display: none;
+}
+@media (max-width: 768px){
+  .grid {
+  display: flex;
+  background: aliceblue;
+  overflow: auto;
+  }
   .cart {
   margin: 10px;
- }
- span {
-   display: block;
+  }
+  span {
+  display: block;
   font-size: 10px;
   text-align: center;
   }
 }
-
-
 /* Import Hover Card */
 .cart {
- 
-  display: inline-block;
-
-  border-radius: 4px;
-  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
-
-
- 
+ display: inline-block;
+ border-radius: 4px;
+ box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+ transition: all 0.2s ease;
 }
 .cart:hover, .cart.hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+ transform: translateY(-4px);
+ box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
 }
