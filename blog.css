@@ -45,6 +45,9 @@
  .grid {
    display: flex;
  }
+ span {
+   display: none;
+ }
  @media (max-width: 768px){
 .grid {
     display: flex;
@@ -56,7 +59,13 @@
   .cart {
   margin: 10px;
  }
+ span {
+   display: block;
+  font-size: 10px;
+  text-align: center;
+  }
 }
+
 
 /* Import Hover Card */
 .cart {
