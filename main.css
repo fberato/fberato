@@ -123,11 +123,10 @@ text-align: center;
 }
 /* Text Animation Import */
 .text_animation {
-    width: 80%;
-    display: block;
-    margin: auto;
-    text-align: center;
-    
+ width: 80%;
+ display: block;
+ margin: auto;
+ text-align: center;
 }
 :root {
 	--delay: 0;
