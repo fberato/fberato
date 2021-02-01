@@ -1,0 +1,48 @@
+.mycard {
+ max-width: 230px;
+ margin: 10px;
+ border: 1px solid var(--bs-gray);
+ border-radius: 15px 15px 15px 15px;
+ padding: 10px;
+}
+.img_card {
+ max-width: 200px;
+ display: block;
+ margin: auto;
+}
+.title h1 {
+ font-size: 26px;
+ color: black;
+}
+.info h1 {
+ font-size: 16px;
+ color: var(--bs-secondary);
+ font-weight: initial;
+}
+.mycard a {
+ text-decoration: none;
+}
+.mycard:hover {
+ opacity: 50%;
+}
+.tags > a {
+ background: aquamarine;
+ padding: 1px;
+ margin: 10px;
+}
+.tags strong {
+ border: 1px solid var(--bs-warning);
+ color: var(--bs-primary);
+ border: 1px solid var(--bs-cyan);
+ border-radius: 10px;
+ padding: 0px 10px;
+ margin: 0px 5px;
+ font-size: 13px;
+ font-weight: 100;
+}
+.gridx {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+

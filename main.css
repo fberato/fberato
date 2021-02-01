@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,900&display=swap');
+body {
+ font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+ width: 90%;
+ margin: auto;
+}
+.avatar img {
+ max-width: 250px;
+ display: block;
+ margin: auto;
+}
+.avatar > img {
+ border-radius: 50%;
+}
+.about {
+ max-width: 1200px;
+ display: block;
+ margin: auto;
+}
+.about a {
+ text-decoration: none;
+ color: coral;
+ font-weight: bold;
+}
+.about h1 {
+ font-size: 16px;
+ display: block;
+ margin: auto;
+ text-align: center;
+ font-family: 'Poppins', sans-serif;
+ font-weight: 400;
+}
+.about strong {
+ font-family: 'Poppins', sans-serif;
+ font-weight: 900;
+}
+.top-bar {
+ width: 100%;
+ margin-top: 0;
+ height: 72px;
+}
+.logo {
+ font-size: 24px;
+ float: left;
+ line-height: 36px;
+ margin-left: 24px;
+ text-transform: uppercase;
+ font-family: 'Poppins', sans-serif;
+ text-decoration: none;
+ color: var(--bs-orange);
+ font-weight: 900!important;
+}
+ul {
+ list-style: none;
+ float: right;
+}
+ul li {
+ display: inline;
+}
+ul li a {
+ text-decoration: none;
+ color: var(--bs-gray);
+ margin-right: 24px;
+ line-height: 36px;
+ transition: all 0.3s ease-in-out;
+ font-weight: bolder;
+ font-family: 'Poppins', sans-serif;
+}
+ul li a:hover {
+ color: #ccc;
+}
+.icons {
+ text-align: center;
+ word-spacing: 30px;
+}
+.icons  i {
+ color: black;
+}
+.copy {
+text-align: center;
+}
+.copy h1 {
+ font-size: 10px;
+}
+.active {
+ color: var(--bs-dark);
+}
+
+@media (max-width: 768px) {
+    ul li {
+    display: block;
+    }
+    ul {
+    float: none;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    }
+    .logo {
+    display: block;
+    float: none;
+    text-align: left;
+    margin: auto 0;
+    padding-top: 16px;
+    color: var(--bs-orange);
+    font-weight: revert;
+    letter-spacing: 2px;
+    }
+    .top-bar {
+    height: 108px;
+    }
+    .avatar img {
+    max-width: 200px;
+    }
+    .wrap {
+    margin: 30px;
+    }
+}
+/* Text Animation Import */
+.text_animation {
+    width: 80%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+:root {
+	--delay: 0;
+	--duration: 800ms;
+	--iterations: 1;
+}
+/* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
+
+
+.reveal-text,
+.reveal-text::after {
+	-webkit-animation-delay: var(--animation-delay, 2s);
+	        animation-delay: var(--animation-delay, 2s);
+	-webkit-animation-iteration-count: var(--iterations, 1);
+	        animation-iteration-count: var(--iterations, 1);
+	-webkit-animation-duration: var(--duration, 800ms);
+	        animation-duration: var(--duration, 800ms);
+	-webkit-animation-fill-mode: both;
+	        animation-fill-mode: both;
+	-webkit-animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+	        animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.reveal-text {
+	--animation-delay: var(--delay, 0);
+	--animation-duration: var(--duration, 800ms);
+	--animation-iterations: var(--iterations, 1);
+	position: relative;
+	font-size: 20px;
+	-webkit-animation-name: clip-text;
+	        animation-name: clip-text;
+	color: rgb(0, 0, 0);
+	white-space: nowrap;
+	cursor: default
+	
+}
+
+.reveal-text::after {
+		content: "";
+		position: absolute;
+		z-index: 999;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #f2f98b;
+		transform: scaleX(0);
+		transform-origin: 0 50%;
+		pointer-events: none;
+		-webkit-animation-name: text-revealer;
+		        animation-name: text-revealer;
+	}
+
+
+@-webkit-keyframes clip-text {
+	from {
+		-webkit-clip-path: inset(0 100% 0 0);
+		        clip-path: inset(0 100% 0 0);
+	}
+	to {
+		-webkit-clip-path: inset(0 0 0 0);
+		        clip-path: inset(0 0 0 0);
+	}
+}
+
+
+@keyframes clip-text {
+	from {
+		-webkit-clip-path: inset(0 100% 0 0);
+		        clip-path: inset(0 100% 0 0);
+	}
+	to {
+		-webkit-clip-path: inset(0 0 0 0);
+		        clip-path: inset(0 0 0 0);
+	}
+}
+
+
+@-webkit-keyframes text-revealer {
+	
+	0%, 50% {
+		transform-origin: 0 50%;
+	}
+	
+	60%, 100% {
+		transform-origin: 100% 50%;		
+	}
+
+	
+	60% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(0);
+	}
+}
+
+
+@keyframes text-revealer {
+	
+	0%, 50% {
+		transform-origin: 0 50%;
+	}
+	
+	60%, 100% {
+		transform-origin: 100% 50%;		
+	}
+
+	
+	60% {
+		transform: scaleX(1);
+	}
+	
+	100% {
+		transform: scaleX(0);
+	}
+}
+
+
