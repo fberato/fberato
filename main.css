@@ -94,7 +94,8 @@ text-align: center;
 
 @media (max-width: 768px) {
     ul li {
-    display: block;
+	display: block;
+	margin-bottom: 5px;
     }
     ul {
     float: none;
@@ -130,6 +131,7 @@ text-align: center;
  display: block;
  margin: auto;
  text-align: center;
+ font-family: 'Poppins', sans-serif;
 }
 :root {
 	--delay: 0;
