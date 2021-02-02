@@ -63,6 +63,7 @@ ul li {
  display: inline;
 }
 ul li a {
+ font-size: 26px;
  text-decoration: none;
  color: var(--bs-gray);
  margin-right: 24px;
@@ -109,10 +110,12 @@ text-align: center;
     padding-top: 16px;
     color: var(--bs-orange);
     font-weight: revert;
-    letter-spacing: 2px;
+	letter-spacing: 2px;
+	font-size: 30px;
     }
     .top-bar {
-    height: 108px;
+	height: 108px;
+	margin-top: -20px;
     }
     .avatar img {
     max-width: 200px;
