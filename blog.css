@@ -132,3 +132,22 @@ span {
   background: transparent;
   outline-width: 0px;
 }
+
+/* Page Artigos */
+.fa-star {
+  color: #d6d4d0;
+}
+.img__blog {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.date {
+  color: var(--bs-secondary);
+  font-weight: 100;
+}
+@media (max-width:768px) {
+  .img__blog {
+    width: 100%;
+  }
+}
