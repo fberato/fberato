@@ -92,7 +92,9 @@ text-align: center;
 .active {
  color: var(--bs-dark);
 }
+ul {
 
+}
 @media (max-width: 768px) {
     ul li {
 	display: block;
@@ -281,4 +283,13 @@ a, a > span {
   }
   .effect-3:hover:before {
 	transform: translateX(0);
+  }
+  @media (max-width:768px) {
+	.effect-3:before {
+		
+		
+		background: black;
+		
+	  }
+
   }
