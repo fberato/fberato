@@ -3,7 +3,8 @@ body {
  font-family: 'Poppins', sans-serif;
 }
 a:hover {
- color: chartreuse!important;
+	color: #1DB954!important;
+
 }
 .wrapper {
  width: 90%;
@@ -298,10 +299,7 @@ a, a > span {
   }
   @media (max-width:768px) {
 	.effect-3:before {
-		
-		
-		background: black;
-		
-	  }
+	background: black;
+	}
 
   }

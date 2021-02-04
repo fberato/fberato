@@ -54,7 +54,6 @@
 }
 span {
  display: none;
- 
 }
 @media (max-width: 768px){
   .grid {
@@ -87,75 +86,74 @@ span {
 /* Search CSS */
 
 .cntr {
-  display: table;
-  width: 100%;
-  height: 100%;
+ display: table;
+ width: 100%;
+ height: 100%;
 }
 .cntr .cntr-innr {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+ display: table-cell;
+ text-align: center;
+ vertical-align: middle;
 }
 /*** STYLES ***/
 .search {
-  display: inline-block;
-  position: relative;
-  height: 35px;
-  width: 35px;
-  box-sizing: border-box;
-  margin: 0px 8px 7px 0px;
-  padding: 7px 9px 0px 9px;
-  border: 3px solid var(--bs-warning);
-  border-radius: 25px;
-  transition: all 200ms ease;
-  cursor: text;
+ display: inline-block;
+ position: relative;
+ height: 35px;
+ width: 35px;
+ box-sizing: border-box;
+ margin: 0px 8px 7px 0px;
+ padding: 7px 9px 0px 9px;
+ border: 3px solid var(--bs-warning);
+ border-radius: 25px;
+ transition: all 200ms ease;
+ cursor: text;
 }
 .search:after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 20px;
-  right: -5px;
-  top: 21px;
-  background:var(--bs-warning);
-  border-radius: 3px;
-  transform: rotate(-45deg);
-  transition: all 200ms ease;
+ content: "";
+ position: absolute;
+ width: 3px;
+ height: 20px;
+ right: -5px;
+ top: 21px;
+ background:var(--bs-warning);
+ border-radius: 3px;
+ transform: rotate(-45deg);
+ transition: all 200ms ease;
 }
 .search.active,
 .search:hover {
-  width: 200px;
-  margin-right: 0px;
+ width: 200px;
+ margin-right: 0px;
 }
 .search.active:after,
 .search:hover:after {
-  height: 0px;
+ height: 0px;
 }
 .search input {
-  width: 100%;
-  border: none;
-  box-sizing: border-box;
-  font-size: 15px;
-  color: inherit;
-  background: transparent;
-  outline-width: 0px;
+ width: 100%;
+ border: none;
+ box-sizing: border-box;
+ font-size: 15px;
+ color: inherit;
+ background: transparent;
+ outline-width: 0px;
 }
-
-/* Page Artigos */
+/* Page Articles */
 .fa-star {
-  color: #d6d4d0;
+ color: #d6d4d0;
 }
 .img__blog {
-  width: 90%;
-  display: block;
-  margin: auto;
+ width: 90%;
+ display: block;
+ margin: auto;
 }
 .date {
-  color: var(--bs-secondary);
-  font-weight: 100;
+ color: var(--bs-secondary);
+ font-weight: 100;
 }
 @media (max-width:768px) {
   .img__blog {
-    width: 100%;
+  width: 100%;
   }
 }

@@ -96,10 +96,12 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.1428571429em;
+    font-family: 'Poppins', sans-serif;
   }
+
   .form .button:hover, .form .button:focus, .form .button:active {
     color: white;
-    background: black;
+    background: #1DB954;
   }
   .form .button:active {
     position: relative;
@@ -143,10 +145,9 @@
     padding: 0px;
     }
   }
-
-/* .wrapper {
- height: 1200px;
-} */
+.wrapper {
+height: 700px;
+}
 
 
   
