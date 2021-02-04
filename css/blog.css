@@ -1,7 +1,7 @@
 .cart {
  max-width: 230px;
  margin: 10px;
- border: 1px solid white;
+ border: 1px solid grey;
  border-radius: 15px 15px 15px 15px;
  padding: 10px;
 }
@@ -25,10 +25,10 @@
 .info h1 {
  max-width: 230px;
  font-size: 16px;
- color: var(--bs-white);
+ color: black;
  font-weight: initial;
  font-family: 'Poppins', sans-serif;
- font-weight: 300;
+ font-weight: 400;
  letter-spacing: 1px;
  line-height: 27px;
 }
@@ -73,6 +73,13 @@ span {
   display: block!important;
   font-size: 10px!important;
   text-align: center!important;
+  }
+  .info h1 {
+  color: black;
+  font-weight: 300;
+  }
+  .cart {
+    border: 1px solid white;
   }
 }
 /* Import Hover Card */
