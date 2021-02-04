@@ -10,15 +10,23 @@
  display: block;
  margin: auto;
 }
+.title {
+  margin: 1px;
+}
 .title h1 {
  font-size: 26px;
  color: black;
+ font-family: 'Poppins', sans-serif;
+}
+.info {
+  margin: 5px;
 }
 .info h1 {
  max-width: 230px;
  font-size: 16px;
  color: var(--bs-secondary);
  font-weight: initial;
+ font-family: 'Poppins', sans-serif;
 }
 .cart a {
  text-decoration: none;

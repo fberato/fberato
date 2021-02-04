@@ -93,8 +93,19 @@ font-family: 'Poppins', sans-serif;
 .active {
  color: var(--bs-dark);
 }
-ul {
-
+.tags {
+ margin: 10px 0px 0px 0px;
+}
+.btn_tags {
+ font-family: 'Poppins', sans-serif;
+ margin: 5px;
+ margin-bottom: 4px;
+ margin-bottom: 0px 0px 0px 0px;
+ border: 1px solid var(--bs-orange);
+ color: var(--bs-pink);
+ font-size: 12px;
+ font-weight: 800;
+ border-radius: 50px;
 }
 @media (max-width: 768px) {
     ul li {
