@@ -22,11 +22,14 @@
   margin: 5px;
 }
 .info h1 {
- max-width: 230px;
- font-size: 16px;
- color: var(--bs-secondary);
- font-weight: initial;
- font-family: 'Poppins', sans-serif;
+  max-width: 230px;
+  font-size: 16px;
+  color: var(--bs-white);
+  font-weight: initial;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+ line-height: 27px;
 }
 .cart a {
  text-decoration: none;
@@ -58,7 +61,7 @@ span {
 @media (max-width: 768px){
   .grid {
   display: flex;
-  background: aliceblue;
+  background: linear-gradient(to right, #f12711, #f5af19);;
   overflow: auto;
   }
   .cart {
